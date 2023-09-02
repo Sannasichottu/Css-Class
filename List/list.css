@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+  margin-left: 20%;
+}
+
+ol {
+  list-style-type: upper-alpha;
+  list-style-position: inside;
+}
+
+ul li:nth-child(2) {
+  color: red;
+}
+
+ol li:last-child {
+  color: blueviolet;
+}
+
+ul li::marker {
+  color: green;
+}
+
+/*
+  :  -> single Column "Class"
+  :: -> Double Column "Element"
+*/

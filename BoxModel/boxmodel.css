@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  border: 2px solid red;
+  width: 50%;
+  font-size: 3rem;
+  padding: 0.5rem;
+  margin: 50px;
+
+  outline: 5px solid blue;
+  outline-offset: -10px;
+}
+
+/*
+
+border-top-width, border-top-color,
+marging-left, margin-right,
+padding-bottom, padding-top
+
+
+*/
+
+/* circle */
+.circle {
+  margin: 2em;
+  border: 10px solid red;
+  width: 100px;
+  height: 100px;
+  outline: 5px dashed black;
+  outline-offset: 10px;
+  background-color: yellow;
+  border-radius: 50%;
+  margin-left: 25%;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+  margin-left: 20%;
+}

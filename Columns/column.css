@@ -1,0 +1,13 @@
+a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.column {
+  /* column-count: 4;
+   column-width: 200px; */
+  columns: 4 200px;
+  column-rule: 2px solid red;
+  column-gap: 30px;
+}

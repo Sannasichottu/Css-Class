@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+  margin-left: 20%;
+}
+
+/* Float */
+.block {
+  width: 10vw;
+  background-color: #acc8e5;
+  color: #112a46;
+  height: 10vw;
+  padding: 1rem;
+}
+
+.left {
+  float: left;
+  margin-right: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.right {
+  float: right;
+  margin-left: 20px;
+}
