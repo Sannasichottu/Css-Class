@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.box {
+    min-height: 100px ;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 2rem;
+    padding: 0.5rem;
+    display: flex;
+    place-content: center;
+    flex-basis: 100px;
+}
+
+.container {
+    max-width: 800px;
+    min-height: 400px;
+    margin-inline: auto;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.box:nth-child(2) {
+    background-color: tomato;
+    display: flex;
+    flex-grow: 2;
+
+}
